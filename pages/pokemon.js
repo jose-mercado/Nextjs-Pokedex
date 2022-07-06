@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react'
 import Layout from "../components/Layout"
-import Link from "next/Link"
 
 export default function pokemon({pokemon, results}) {
     console.log(results);
